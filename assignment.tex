@@ -5,6 +5,27 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{matlabgreen}{RGB}{0,128,0}
+\definecolor{matlabpurple}{RGB}{163,21,21}
+\definecolor{matlabblue}{RGB}{0,0,255}
+\definecolor{matlabgray}{RGB}{128,128,128}
+
+\lstdefinestyle{matlab}{
+    language=Matlab,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{matlabblue},
+    commentstyle=\color{matlabgreen},
+    stringstyle=\color{matlabpurple},
+    numberstyle=\tiny\color{matlabgray},
+    numbers=left,
+    frame=single,
+    breaklines=true,
+    columns=fullflexible,
+    showstringspaces=false
+}
 
 % Document Information
 \title{Course Name - Assignment \#}
